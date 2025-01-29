@@ -1,9 +1,7 @@
-import { Character, ModelProviderName, Clients } from "./types.ts";
-
-export const defaultCharacter: Character = {
+{
     "name": "Ab4AD_Agent",
-    "clients": [Clients.TELEGRAM],
-    "modelProvider": ModelProviderName.OPENAI,
+    "clients": [],
+    "modelProvider": "openai",
     "settings": {
         "voice": {
             "model": "en_GB-alan-medium"
@@ -119,6 +117,5 @@ export const defaultCharacter: Character = {
         "Supportive",
         "Innovative",
         "Evidence-based"
-    ],
-    plugins: []
-};
+    ]
+}
